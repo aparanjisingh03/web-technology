@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>internal css</title>
+<style>
+body
+{
+background-image:url(old.jpg);
+}
+h1
+{
+color:red;
+font-family:Bradley Hand ITC;
+font-size:30px;
+}
+p
+{
+color:pink;
+font-family:Castellar;
+font-size:30px;
+text-align:center;
+}
+</style>
+</head>
+</html>
