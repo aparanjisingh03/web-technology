@@ -1,0 +1,34 @@
+<catalog>
+<Book>
+<Title>xml</Title>
+<Author>winston</Author>
+<Publication>wiley</Publication>
+<Edition>fifth edition</Edition>
+<ISBN>0-76-5432-65</ISBN>
+<Price>$40.45</Price>
+</Book>
+<Book>
+<Title>malgudi</Title>
+<Author>narayan</Author>
+<Publication>thomson</Publication>
+<Edition>four edition</Edition>
+<ISBN>767-774-5432-65</ISBN>
+<Price>$437.45</Price>
+</Book>
+<Book>
+<Title>comic</Title>
+<Author>tagore</Author>
+<Publication>disney</Publication>
+<Edition>tenth edition</Edition>
+<ISBN>543-32-655</ISBN>
+<Price>$140.45</Price>
+</Book>
+<Book>
+<Title>general</Title>
+<Author>swami</Author>
+<Publication>BPV</Publication>
+<Edition>second edition</Edition>
+<ISBN>650-76-5432</ISBN>
+<Price>$50.45</Price>
+</Book>
+</catalog>
