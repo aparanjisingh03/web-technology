@@ -1,0 +1,50 @@
+<html>
+<head>
+<style>
+div#maincontent{
+height:100px;
+width:500px;
+border:1px solid #CEE2FA;
+text-align:left;
+color:#084386;
+font-family:"calibri";
+font-size:20;
+padding:5px;
+}
+div#heading{
+text-decoration:bold;
+text-align:center;
+margin-top:80px;
+width:500px;
+border:1pzx solid #CEE2FA;
+font-family:"calibri";
+font-size:20;
+padding:5px;
+}
+</style>
+</head>
+<body>
+<center>
+<div id="heading">Movie details</div>
+<div id="maincontent">
+<script>
+let x=3;
+let no=window.prompt("Enter number of tickets:");
+if(no<=2)
+document.write("Total amount:",no*150);
+else if(no>=6)
+document.write("Booking is not allowed!!!");
+else
+{
+  let tot=0;
+  do
+{
+   tot+=150-(150*(x/100));
+  x+=2;
+no-=1;
+}while(no>0)
+document.write("Total amount:",tot);
+}
+</script>
+</body>
+</html>
